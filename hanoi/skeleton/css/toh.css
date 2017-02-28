@@ -1,0 +1,48 @@
+.hanoi {
+  margin-top: 400px;
+
+  transform: scaleY(-1);
+  height: 10px;
+  width: 1000px;
+}
+
+.highlighted {
+  background-color: blue;
+}
+
+.selected {
+  background-color: red;
+}
+
+ul {
+  float: left;
+  display: inline-block;
+  width: 200px;
+  border-top: 20px solid black;
+  list-style: none;
+}
+
+li {
+  justify-content: center;
+}
+
+.disk {
+  position: relative;
+  height: 40px;
+  margin: 20px 0;
+  background: black;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+
+.top-disk {
+  width: 50px;
+}
+.middle-disk {
+  width: 100px;
+}
+.bottom-disk {
+  width: 150px;
+}
