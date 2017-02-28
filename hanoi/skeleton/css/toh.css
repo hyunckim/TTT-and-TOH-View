@@ -19,17 +19,18 @@ ul {
   display: inline-block;
   width: 200px;
   border-top: 20px solid black;
+  border-bottom: 200px solid white;
   list-style: none;
 }
 
 li {
-  justify-content: center;
+  background-color: red;
 }
 
 .disk {
   position: relative;
   height: 40px;
-  margin: 20px 0;
+  margin: 5px auto;
   background: black;
   border-radius: 50% / 10%;
   color: white;
